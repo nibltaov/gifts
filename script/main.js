@@ -1,5 +1,4 @@
-window.addEventListener("load", ready)
-function ready() {
+window.onload = function() {
     load.style.display = 'none';
     const $ = {
         selector: selector => document.querySelector(selector),
